@@ -342,6 +342,15 @@ class Grupa extends React.Component {
     };
   }
 
+  componentDidMount() {
+    this.setState({
+      studenti: this.state.studenti.map(x => {
+        x.key = ID();
+        return x;
+      })
+    });
+  }
+
   sortData = event => {
     var directieSortare;
     if (this.state.sortData.id_coloana == event.target.id) {
