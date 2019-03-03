@@ -12,11 +12,11 @@ th {
   width: 750px;
 }
 
-.Poza {
+.poza {
   transition: 1.5s;
   border-radius: 5%;
 }
-.Poza:hover {
+.poza:hover {
   width: 240px;
   transition: 2s;
 }
