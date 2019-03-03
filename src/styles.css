@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+tr,
+th {
+  border: 1px solid black;
+}
+
+#gridstyle {
+  width: 750px;
+}
+
+.Poza {
+  transition: 1.5s;
+  border-radius: 5%;
+}
+.Poza:hover {
+  width: 240px;
+  transition: 2s;
+}
